@@ -45,3 +45,16 @@ Commands
     git push - -force
     git revert <commit_hash>(creates new commit to revert old commit changes)
     git merge
+
+
+### Best Practices - 1
+* Don’t "git push" straight to main or master branch
+* Create a separate branch for each feature or bugfix and name the branch with prefix “feature/xx” and “bugfix/xxx” respectively
+* Use .gitignore file to ignore e.g. editor specific files, build folders. Like you keys, node_modules etc..
+* Doing Code Reviews via Merge Requests
+* Use descriptive and meaningful commit messages
+* Commit in relatively small chunks
+* Commit only related work
+* Avoid very large deviations between local and remote repository 
+* Keep your feature/bugfix branch up-to-date with remote master and/or develop branch. So pull often from remote git repository
+* Branches shouldn’t be open for too long or master branch should be merged into your feature/bugfix branch often
