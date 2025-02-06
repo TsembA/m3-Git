@@ -45,9 +45,3 @@ Commands
     git push - -force
     git revert <commit_hash>(creates new commit to revert old commit changes)
     git merge
-
-Remove Git
-
-remove local .git file (contains config for git remotes etc) rm -fr .git
-best practices
-1 branch per feature dev branch: intermediary master branch pull/merge requests delete branch when merged add .gitignore file
