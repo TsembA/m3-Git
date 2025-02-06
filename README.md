@@ -1,6 +1,8 @@
 ### What is Version Control?
 
 * Also known as "source control"
+* There's couple diffirent git repositories like GitHub, GitLab, Bitbucket
+* Companies can have their own Git repositories hosted on company servers
 * Practice of tracking and managing changes to software code
 * It enables multiple people to simultaneously work on a single project
 * Code is hosted centrally on the internet
@@ -10,7 +12,7 @@
 ### Basic Concepts of Version Control
 
 * Version Control keeps a history of changes
-* Every code change and file is tracked!
+* Every code change and file is tracked
 * You can revert commits
 * Each change labelled with commit message
 
