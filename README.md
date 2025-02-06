@@ -47,7 +47,7 @@ Commands
     git merge
 
 
-### Best Practices - 1
+### Best Practices
 * Don’t "git push" straight to main or master branch
 * Create a separate branch for each feature or bugfix and name the branch with prefix “feature/xx” and “bugfix/xxx” respectively
 * Use .gitignore file to ignore e.g. editor specific files, build folders. Like you keys, node_modules etc..
