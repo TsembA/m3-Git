@@ -20,12 +20,13 @@ Commands
 
     git clone (create local copy of remote repo)
     git add
+    
     git commit
     git log
     git push
     git pull
     git init
-    git remote add origin <remote_repo>
+    git remote add origin <remote_repo_url>
     git push - -set-upstream origin master (create local git repo and connect to remote repo)
     git checkout
     git checkout -b (create new branch locally)
