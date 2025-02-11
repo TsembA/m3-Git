@@ -25,8 +25,10 @@ Commands
     
     git commit
     git log
+    
     git push
-    git pull
+    gut pull
+    git pull -r
     git init
     git remote add origin <remote_repo_url>
     git push - -set-upstream origin master (create local git repo and connect to remote repo)
@@ -36,17 +38,20 @@ Commands
     git status
     git branch -d
     git rebase(avoid unnecessary merge commits in git history)
-    git rm -r - -cached
-    git rm - -cached (remove file from remote repo)
+    git rebase --continue
+    git rm -r --cached
+    git rm --cached (remove file from remote repo)
     git stash
-    git stash pop(save unfinished changes)
-    git reset - -hard HEAD~1(revert & discard changes to commit, ~)
-    git reset HEAD~1(revert & keep changes)
-    git commit - -amend(merge changes into last commit)
-    git reset - -hard HEAD~1
-    git push - -force
+    git stash pop (bring changes back ty my local working derictory)
+    git reset --hard HEAD~1(revert & discard changes to commit, ~)
+    git reset <commit hash> removers old commit
+    git reset HEAD~1(revert commit & keep changes)
+    git commit --amend(merge changes into last commit)
+    git reset --hard HEAD~1
+    git push --force
     git revert <commit_hash>(creates new commit to revert old commit changes)
     git merge
+    
 
 
 ### Best Practices
