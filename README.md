@@ -65,7 +65,7 @@ git revert <commit_hash>         # 🚫 Revert changes (safely)
 
 
 
-##🌟 Best Practices for Using Git
+🌟 Best Practices for Using Git
 
 ✅ Don’t push directly to main or master
 ✅ Create feature/bugfix branches using naming like feature/xyz or bugfix/xyz
