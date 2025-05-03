@@ -1,4 +1,4 @@
-# 🚀 Git & Version Control Cheat Sheet
+# 🚀 Git & Version Control
 
 ## 📦 What is Version Control?
 
